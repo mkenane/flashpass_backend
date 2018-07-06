@@ -1,0 +1,41 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+iPhone12Launch = Event.create(name: "iPhone12Launch", date: "2020-01-01", time: 2200, maxpeople: 10, peopleperhour: 10, cancelfee: 100 )
+britneyAutographSigning = Event.create(name: "Britney Book Signing", date: "2018-08-04", time: 2000, maxpeople: 5, peopleperhour: 5, cancelfee: 300 )
+americanIdolAuditions = Event.create(name: "American Idol Auditions", date: "2020-07-01", time: 800, maxpeople: 20, peopleperhour: 15, cancelfee: 10 )
+blackfridayWalmart = Event.create(name: "Walmart on Black Friday", date: "2020-11-24", time: 2400, maxpeople: 1000, peopleperhour: 200, cancelfee: 5 )
+mor = User.create(name: "mor", city: "DC")
+nitzi = User.create(name: "nitzan", city: "DC")
+gal = User.create(name: "gal", city: "DC")
+rotem = User.create(name: "rotem", city: "DC")
+alex = User.create(name: "alex", city: "DC")
+hunter = User.create(name: "hunter", city: "DC")
+lara = User.create(name: "lara", city: "DC")
+kiara = User.create(name: "kiara", city: "DC")
+noa = User.create(name: "noa", city: "DC")
+anna = User.create(name: "anna", city: "DC")
+rachel = User.create(name: "rachel", city: "DC")
+anthony = User.create(name: "anthony", city: "DC")
+ian = User.create(name: "ian", city: "DC")
+liron= User.create(name: "liron", city: "DC")
+alexis = User.create(name: "alexis", city: "DC")
+ruth = User.create(name: "ruth", city: "DC")
+brandy = User.create(name: "brandy", city: "DC")
+sara = User.create(name: "sara", city: "DC")
+boaz = User.create(name: "boaz", city: "DC")
+
+
+audition1 = Spot.create(event_id: 3, user_id: 1)
+audition2 = Spot.create(event_id: 3, user_id: 2)
+audition3 = Spot.create(event_id: 3, user_id: 3)
+audition4 = Spot.create(event_id: 3, user_id: 4)
+audition5 = Spot.create(event_id: 3, user_id: 5)
+audition6 = Spot.create(event_id: 3, user_id: 6)
+audition7 = Spot.create(event_id: 3, user_id: 7)
+audition8 = Spot.create(event_id: 3, user_id: 8)
+audition9 = Spot.create(event_id: 3, user_id: 9)
